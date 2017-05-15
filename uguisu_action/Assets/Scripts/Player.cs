@@ -13,6 +13,7 @@ public class Player : MonoBehaviour {
 
 	public bool NowJump = false;
 	public bool CanJump = false;
+	public bool CanControl = true;
 
 	public bool idle = false;
 	public bool walk = false;
@@ -56,21 +57,28 @@ public class Player : MonoBehaviour {
 		damege = (PlayerAnimation.GetCurrentAnimatorStateInfo (0).IsName ("damege") == true) ? true : false;
 
 		//左への歩き
-		if (Input.GetKey(KeyCode.LeftArrow) && !(state == "land")){
+		if (Input.GetKey(KeyCode.LeftArrow) && CanControl){
 			v.x -= 0.05f;
 			v.z = 0;//z軸を固定。根本的対処の必要あり
 			scale.x = -1;
 		}
 		//右への歩き
-		if (Input.GetKey(KeyCode.RightArrow) && !(state == "land")){
+		if (Input.GetKey(KeyCode.RightArrow) && CanControl){
 			v.x += 0.05f;
 			v.z = 0;
 			scale.x = 1;
 		}
 
-		//test
-		if (land){
-			//Debug.Log("wry");
+		//上昇中でも下降中でもなければジャンプ判定をオフにする
+		if (state == "idle" || state == "walk" || state == "land"){
+			NowJump = false;
+		}
+
+		//特定のステートでキー操作による移動を無効化する
+		if (state == "land" || state == "damege") {
+			CanControl = false;
+		} else {
+			CanControl = true;
 		}
 
 		this.transform.position = v;

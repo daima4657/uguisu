@@ -8,8 +8,6 @@ public class jumpscript : MonoBehaviour {
 	public float flap = 400f;
 	public LayerMask mask;
 	public Player player;
-	public bool jump = false;
-	public bool canjump = false;
 
 	// Use this for initialization
 	void Start () {
@@ -24,18 +22,17 @@ public class jumpscript : MonoBehaviour {
 
 		//変数canjumpでジャンプの可否をコントロールしている..がやや無理くり
 		if (player.state == "idle" || player.state == "walk"){
-			canjump = true;
+			player.CanJump = true;
 		}
 		if (player.land){
-			canjump = false;
+			player.CanJump = false;
 		}
 
 		//上キーを押したらジャンプ...不具合あり
-		if (Input.GetKey (KeyCode.UpArrow) && canjump && !jump) {
+		if (Input.GetKey (KeyCode.UpArrow) && player.CanJump && !player.NowJump) {
 			anim.SetBool ("isJumpUp", true);
 			rb2d.velocity = transform.up * 16;
-			Debug.Log("ジャンプしすぎ");
-			jump = true;
+			player.NowJump = true;
 		}
 
 		//y速度が0より下なら落下ステートへ移行
@@ -53,7 +50,7 @@ public class jumpscript : MonoBehaviour {
 		}
 
 		if(player.state == "land") {
-			jump = false;
+			player.NowJump = false;
 		}
 		
 	}
@@ -65,7 +62,7 @@ public class jumpscript : MonoBehaviour {
 			anim.SetBool ("isJumpDown", false);
 			//jump = false;
 			if(!player.jumpDown){
-				jump = false;
+				player.NowJump = false;
 			}
 		}
 		if(col.gameObject.tag == "ground" && player.jumpUp){ //groundタグのついたオブジェクトとの衝突時
@@ -73,7 +70,7 @@ public class jumpscript : MonoBehaviour {
 			anim.SetBool ("isJumpDown", false);
 			//jump = false;
 			if(!player.jumpDown){
-				jump = false;
+				player.NowJump = false;
 			}
 		}
 	}

@@ -9,6 +9,7 @@ public class Damege : MonoBehaviour {
 	Animator PlayerAnimation;
 	public GameObject PlayerObject;
 	public Player player;
+	Coroutine FlashCoroutine;
 
 	// Use this for initialization
 	void Start () {
@@ -16,11 +17,16 @@ public class Damege : MonoBehaviour {
 		PlayerObject = GameObject.Find("uguisu-player");
 		player = gameObject.GetComponent<Player>();
 		PlayerAnimation = PlayerObject.GetComponent<Animator>();
+		FlashCoroutine = StartCoroutine (Flash());//点滅用コルーチンの呼び出し
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		//player.thrust = 1;
+		/*if((player.state == "damege")){
+			StopCoroutine(Flash());
+		} else {
+			
+		}*/
 	}
 
 	//ステートがdamegeでgroundに着地した場合の処理
@@ -33,26 +39,28 @@ public class Damege : MonoBehaviour {
 		}
 	}
 
+	/*やられ点滅用のIEnumerator*/
 	private IEnumerator Flash()
 	{
 		Renderer renderer = GetComponent<Renderer>();
 		while (FlashFlag) {
 			for (int i=0; i<3; i++)
 			{
-				renderer.enabled = !renderer.enabled;
-				Debug.Log ("uryyyy");
-
+				if (player.state == "damege") {
+					renderer.enabled = !renderer.enabled;
+				} else {
+					renderer.enabled = true;
+				}
 				yield return new WaitForSeconds (0.1f); // 時間(秒)を指定して待機したい場合
 				// yield return null; // 1フレーム待機したい場合
 			}
 		}
 	}
 
-	//やられ判定
+	//やられ時ふっとび処理
 	public void DamegeFlag(bool flag){
 		Vector3 scale = transform.localScale;
 		PlayerAnimation.SetBool("isDamege", true);
-		StartCoroutine ("Flash");//点滅用コルーチンの呼び出し
 		if (scale.x == 1) {
 			rb2d.velocity = transform.up * 8;
 			rb2d.AddForce (Vector2.left * 300);

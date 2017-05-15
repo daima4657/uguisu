@@ -1,0 +1,63 @@
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/UnityEngine.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/UnityEditor.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/Mono.Cecil.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/Unity.DataContract.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/daiimanishi/New Unity Project/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/daiimanishi/New Unity Project/obj/Debug/Assembly-CSharp.dll
+/Users/daiimanishi/New Unity Project/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/obj/Debug/Assembly-CSharp.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/UnityEngine.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/UnityEditor.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/Mono.Cecil.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/Unity.DataContract.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/daiimanishi/Unity Projects/practice takoyaki2/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/obj/Debug/Assembly-CSharp.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/UnityEngine.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/UnityEditor.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/Mono.Cecil.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/Unity.DataContract.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/daiimanishi/Unity Projects/uguisu-git/uguisu/uguisu_action/Temp/bin/Debug/Mono.Cecil.Mdb.dll
